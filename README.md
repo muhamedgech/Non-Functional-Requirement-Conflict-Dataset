@@ -5,37 +5,37 @@ This repository contains a curated dataset designed to identify and analyze conf
 📁 Dataset Overview
 The Excel file includes the following sheets:
 
-Quality Attributes Identification
+Sheet 1: Quality Attributes Identification
 
-Main quality attributes, sub-attributes, individual attributes, and real-world examples collected from literature.
+        Main quality attributes, sub-attributes, individual attributes, and real-world examples collected from literature.
 
-Initial Attribute Relationships
+Sheet 3:Initial Attribute Relationships
 
-Pairwise relationships between main quality attributes based on findings from various research papers.
+        Pairwise relationships between main quality attributes based on findings from various research papers.
 
-Unified Relationship Mapping
+Sheet 3: Unified Relationship Mapping
 
-Redundancies are removed to form a single, comprehensive relationship map across all papers.
+        Redundancies are removed to form a single, comprehensive relationship map across all papers.
 
-Numerical Representation of Relationships
+Sheet 4:Numerical Representation of Relationships
 
-Unified relationships are encoded using numerical values for modeling.
+        Unified relationships are encoded using numerical values for modeling.
 
-Sub-Attribute Relationships
+Sheet 5: Sub-Attribute Relationships
 
-Relationships between sub-quality attributes gathered from literature.
+      Relationships between sub-quality attributes gathered from literature.
 
-NFR Sentence Mapping
+Sheet 6:NFR Sentence Mapping
 
-Sub-quality attributes are mapped to selected non-functional requirement sentences.
+      Sub-quality attributes are mapped to selected non-functional requirement sentences.
 
-Cleaned Sentence Dataset
+Sheet 7: Cleaned Sentence Dataset
+    
+      Only the selected sub-quality attributes and their corresponding sentences are retained.
 
-Only the selected sub-quality attributes and their corresponding sentences are retained.
+Sheet 8:Conflict Dataset Construction
 
-Conflict Dataset Construction
-
-Sentence pairs are labeled as conflicting or non-conflicting, and their relationships are numerically encoded for training machine learning models.
+        Sentence pairs are labeled as conflicting or non-conflicting, and their relationships are numerically encoded for training machine     learning models.
 
 🧪 Research Background
 This dataset was prepared as part of the research presented in the following paper:
